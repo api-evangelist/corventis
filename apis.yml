@@ -1,24 +1,58 @@
 aid: corventis
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/corventis.png
 name: Corventis
-description: 'Corventis is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Corventis, Inc. was a healthcare technology company that developed wearable
+  cardiac monitoring devices — including the PiiX adhesive sensor and the NUVANT Mobile
+  Cardiac Telemetry (MCT) system — for remote patient monitoring and arrhythmia detection.
+  Backed by Kleiner Perkins, the company was acquired by Medtronic in 2014 and no longer
+  operates as an independent entity. The corventis.com domain now resolves to Medtronic
+  infrastructure (Medtronic nameservers; TLS certificate scoped to Medtronic domains).
+  No public developer portal, API documentation, SDK, or machine-readable API surface
+  exists for this provider.'
 url: https://raw.githubusercontent.com/api-evangelist/corventis/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - kleiner-perkins
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
+x-status: acquired
+x-acquired-by: medtronic
+x-acquired-year: 2014
+x-enrichment-note: 'Enrichment pipeline 2026-07-18 — domain probe confirmed corventis.com
+  is served by Medtronic nameservers (ns2-5.medtronic.com), resolves to a Medtronic-owned
+  IP, and presents a TLS certificate covering only Medtronic domains. Company is defunct
+  as an independent entity; no API/developer surface to enrich. No artifacts produced.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Medical Devices
+- Cardiac Monitoring
+- Remote Patient Monitoring
+- Wearables
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

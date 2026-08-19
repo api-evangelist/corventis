@@ -34,7 +34,7 @@ x-enrichment-note: 'Enrichment pipeline 2026-07-18 — domain probe confirmed co
   is served by Medtronic nameservers (ns2-5.medtronic.com), resolves to a Medtronic-owned
   IP, and presents a TLS certificate covering only Medtronic domains. Company is defunct
   as an independent entity; no API/developer surface to enrich. No artifacts produced.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:

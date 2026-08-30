@@ -67,3 +67,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/medtronic/
+  name: Medtronic
+  x-relationship: acquired
+  x-evidence: "Backed by Kleiner Perkins, the company was acquired by Medtronic in 2014 and no longer operates as an independent entity."
